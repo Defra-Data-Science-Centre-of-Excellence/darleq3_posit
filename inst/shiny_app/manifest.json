@@ -453,6 +453,41 @@
         "Built": "R 4.4.2; ; 2026-04-10 07:07:16 UTC; unix"
       }
     },
+    "darleq3": {
+      "Source": "github",
+      "Repository": null,
+      "description": {
+        "Package": "darleq3",
+        "Type": "Package",
+        "Title": "Diatom-based water quality indices",
+        "Version": "1.0",
+        "Date": "2025-09-29",
+        "Authors": "Steve Juggins, Martyn Kelly",
+        "Maintainer": "Steve Juggins <Stephen.Juggins@ncl.ac.uk>",
+        "Description": "Diatom-based water quality indices.",
+        "Imports": "readxl, openxlsx, shiny, shinyjs, shinydashboard, stringr,\nmgcv, knitr, rmarkdown, R.rsp",
+        "License": "GPL-2",
+        "Encoding": "UTF-8",
+        "LazyData": "true",
+        "RoxygenNote": "7.3.3",
+        "Roxygen": "list(markdown = TRUE)",
+        "VignetteBuilder": "R.rsp",
+        "RemoteType": "github",
+        "RemoteHost": "api.github.com",
+        "RemoteRepo": "darleq3_posit",
+        "RemoteUsername": "Defra-Data-Science-Centre-of-Excellence",
+        "RemoteRef": "HEAD",
+        "RemoteSha": "3545c70f2fc4fef06e3ffd02210f4227260198d1",
+        "GithubRepo": "darleq3_posit",
+        "GithubUsername": "Defra-Data-Science-Centre-of-Excellence",
+        "GithubRef": "HEAD",
+        "GithubSHA1": "3545c70f2fc4fef06e3ffd02210f4227260198d1",
+        "NeedsCompilation": "no",
+        "Packaged": "2026-04-10 07:55:41 UTC; Jonathan.Warren",
+        "Depends": "R (>= 3.5.0)",
+        "Built": "R 4.4.2; ; 2026-04-10 07:55:42 UTC; unix"
+      }
+    },
     "digest": {
       "Source": "CRAN",
       "Repository": "https://dash-pkmgr-prd.azure.defra.cloud/cran/latest",
@@ -1856,206 +1891,23 @@
     }
   },
   "files": {
-    ".gitattributes": {
-      "checksum": "a01a40817e65c045bc3a4c5bdd93feba"
-    },
-    ".Rbuildignore": {
-      "checksum": "63fa301d3b655577684931acb8e09823"
-    },
-    "data/darleq3_data.rda": {
-      "checksum": "f07c908502b0788f4be6bb3755948544"
-    },
-    "DESCRIPTION": {
-      "checksum": "d4a6ebaaf719f85a47af027eb8f92cd5"
-    },
-    "inst/ChangeLog": {
-      "checksum": "41849186df65ecb9eaaa4d1ef17e196e"
-    },
-    "inst/CITATION": {
-      "checksum": "678ad6151ce6ed78b8d1f1d5bfb97d68"
-    },
-    "inst/COPYING": {
-      "checksum": "7c1b36c6b88fd996b305f976ca20b4a4"
-    },
-    "inst/extdata/DARLEQ2TestData.xls": {
-      "checksum": "a44e04cf13cc33fbdf7594b7cf00115e"
-    },
-    "inst/extdata/DARLEQ2TestData.xlsx": {
-      "checksum": "235ef5b320263f717f8e99fd4b9cf2a8"
-    },
-    "inst/extdata/DarleqTaxonList2017_Master.xlsx": {
-      "checksum": "ccc03330b8647ef55cbacd3958c369ec"
-    },
-    "inst/extdata/Diat_barcode_lookup.xlsx": {
-      "checksum": "a844e7bf9bdeb4bb8274fd16ecadc6f6"
-    },
-    "inst/extdata/Diat_barcode_to_darleq_lookup_09_2025.xlsx": {
-      "checksum": "215d8b74aee2f652582720bf8e31177a"
-    },
-    "inst/misc/MakeData.R": {
-      "checksum": "593b788c456ee6ed92eed8fac5f41259"
-    },
-    "inst/misc/MakePDFs.R": {
-      "checksum": "2c5360308333ba42e43cdc8ee02678e4"
-    },
-    "inst/shiny_app/app.R": {
+    "app.R": {
       "checksum": "4bc3423f992e39dd5b211a8e0e9975c7"
     },
-    "inst/shiny_app/www/darleq3UserGuidePDF.html": {
+    "www/darleq3UserGuidePDF.html": {
       "checksum": "b192d02d0647e48d2361aab44e8938c7"
     },
-    "inst/shiny_app/www/darleq3UserGuidePDF.pdf": {
+    "www/darleq3UserGuidePDF.pdf": {
       "checksum": "9d56bcb86c55dd31cdc5725e9fc9fd1e"
     },
-    "inst/shiny_app/www/DarleqTaxonList2017_Master.xlsx": {
+    "www/DarleqTaxonList2017_Master.xlsx": {
       "checksum": "ccc03330b8647ef55cbacd3958c369ec"
     },
-    "inst/shiny_app/www/Diat_barcode_to_darleq_lookup_09_2025.xlsx": {
+    "www/Diat_barcode_to_darleq_lookup_09_2025.xlsx": {
       "checksum": "753128a3f5c96c39072689439f771c59"
     },
-    "inst/shiny_app/www/Interpreting_NGS_data.pdf": {
+    "www/Interpreting_NGS_data.pdf": {
       "checksum": "0453f5d98c97f1182329f32301f1c8bd"
-    },
-    "man/calc_EQR.Rd": {
-      "checksum": "bf9aa12c325b76b72e51acde71d6fd09"
-    },
-    "man/calc_Metric_EQR.Rd": {
-      "checksum": "8c0765c017681369a57e3a79a486e151"
-    },
-    "man/calc_Metric.Rd": {
-      "checksum": "6cd6cbb17c62ab902b4f67841dcf7e64"
-    },
-    "man/calc_SiteEQR.Rd": {
-      "checksum": "fafbfeebbc7d8d269c3c928d93733b33"
-    },
-    "man/calc_Uncertainty.Rd": {
-      "checksum": "af65ad9a5879a13b71e96a1883e3dedc"
-    },
-    "man/calc_WFDClass.Rd": {
-      "checksum": "7ce60e27eb41b4dc23c3de7076ce84a4"
-    },
-    "man/darleq.Rd": {
-      "checksum": "4cb7bde02904d053700a972c0d872870"
-    },
-    "man/darleq3_data.Rd": {
-      "checksum": "9c8e84f2377ec5b4bcb03ad559f2fa6a"
-    },
-    "man/darleq3_taxa.Rd": {
-      "checksum": "2e101fb7f90692e52f29739e738a6dbe"
-    },
-    "man/darleq3.Rd": {
-      "checksum": "fdc402e9a2d14d6cab0a2893fab133bd"
-    },
-    "man/errMessage.Rd": {
-      "checksum": "264b1a11e4775478871b38a7c2fed03d"
-    },
-    "man/figures/darleq3shiny.png": {
-      "checksum": "0fe1e0124c231b68895af4d92d6c254c"
-    },
-    "man/figures/DARLEQDAMData.png": {
-      "checksum": "fb82b7fb6e10f344d203777bc21d6866"
-    },
-    "man/figures/DARLEQLakeData.png": {
-      "checksum": "75eed52419842dc4f17bf9a58370f143"
-    },
-    "man/figures/DARLEQRiverData.png": {
-      "checksum": "00dcf361722bf892e7c29368048fb84b"
-    },
-    "man/print.DARLEQ_DATA.Rd": {
-      "checksum": "cfdb57605c7de4376d9f66aa9b14c67d"
-    },
-    "man/read_DARLEQ.Rd": {
-      "checksum": "06bbf41885134172d06bfaa3f49c7f7e"
-    },
-    "man/runDARLEQ.Rd": {
-      "checksum": "761453c67ad375ee9aecf17064e71e24"
-    },
-    "man/save_DARLEQ.Rd": {
-      "checksum": "4d1d27ba89c598a7638e4346aa1da8e3"
-    },
-    "NAMESPACE": {
-      "checksum": "914c2df03a826e59a421b83bf7567a7a"
-    },
-    "R/calc_eqr.R": {
-      "checksum": "0eef8f786e3ff6fcdfe435e075b57fff"
-    },
-    "R/calc_metric_eqr.R": {
-      "checksum": "9be8c0076c47f2846df3765e0d914aeb"
-    },
-    "R/calc_metric.R": {
-      "checksum": "72ee369075558886f93f56271b79fae2"
-    },
-    "R/darleq_obs.R": {
-      "checksum": "de9e2b667258ae26ba3d373273fc5338"
-    },
-    "R/darleq3_fun.R": {
-      "checksum": "3198bd6cb171fa18d33c89ed19729adf"
-    },
-    "R/darleq3_shiny.R": {
-      "checksum": "fc37e4c06f2fa3dbe8abb5e9cd11b283"
-    },
-    "R/darleq3.R": {
-      "checksum": "db2b1f7d78d0286d029bd04d68f72ae6"
-    },
-    "R/data.R": {
-      "checksum": "9163139c61468f7a97fa9800088d094b"
-    },
-    "R/internal.R": {
-      "checksum": "e9de548dc34197a9d8af1150ecbd5736"
-    },
-    "R/read_darleq.R": {
-      "checksum": "6e3930c79283828439cc238d879676af"
-    },
-    "R/save_darleq.R": {
-      "checksum": "5d8d22f55854d4cf3e110f86e43488ce"
-    },
-    "R/zzz.R": {
-      "checksum": "d2275f15ebdc33abc0922466a77c2294"
-    },
-    "README.md": {
-      "checksum": "e35be260cdb9852ae52642a797fcf289"
-    },
-    "vignettes/darleq3.pdf": {
-      "checksum": "7f8b9f4c541cb20403178f8092a6c36f"
-    },
-    "vignettes/darleq3.pdf.asis": {
-      "checksum": "b4415f08b8414100736bd95b6bc9d5f7"
-    },
-    "vignettes/darleq3UserGuide.html": {
-      "checksum": "b91d3a32b83c4d73a912c3b5bb562e50"
-    },
-    "vignettes/darleq3UserGuide.R": {
-      "checksum": "9e9754cfc08609bf9e096a0a111daaf7"
-    },
-    "vignettes/darleq3UserGuide.Rmd": {
-      "checksum": "6229898ffec33cd3f95763fdc6875639"
-    },
-    "vignettes/darleq3UserGuidePDF.pdf": {
-      "checksum": "9d56bcb86c55dd31cdc5725e9fc9fd1e"
-    },
-    "vignettes/darleq3UserGuidePDF.pdf.asis": {
-      "checksum": "79603d93676552358f86fbcb37d391fc"
-    },
-    "vignettes/images/darleq3shiny.png": {
-      "checksum": "0fe1e0124c231b68895af4d92d6c254c"
-    },
-    "vignettes/images/DARLEQDAMData.png": {
-      "checksum": "fb82b7fb6e10f344d203777bc21d6866"
-    },
-    "vignettes/images/DARLEQLakeData.png": {
-      "checksum": "75eed52419842dc4f17bf9a58370f143"
-    },
-    "vignettes/images/DARLEQRiverData.png": {
-      "checksum": "00dcf361722bf892e7c29368048fb84b"
-    },
-    "vignettes/Interpreting_NGS_data.pdf": {
-      "checksum": "0453f5d98c97f1182329f32301f1c8bd"
-    },
-    "vignettes/Interpreting_NGS_data.pdf.asis": {
-      "checksum": "47a0755f8a96e4b3fbfc507304b9cf15"
-    },
-    "vignettes/style.css": {
-      "checksum": "31f20afbaaaa343605169b72acbddc7e"
     }
   },
   "users": null
